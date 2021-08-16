@@ -1,5 +1,6 @@
 # - *- coding: utf- 8 - *-
 import config
+import
 import pipfile
 import logging
 import requests
@@ -10,10 +11,8 @@ import sys
 reload(sys)
 sys.setdefaultencoding('utf-8')
 
-telegram_id = '644907626'
 api_key_telegram = '1649437858:AAE7soGnFekNgmwIqyzKa_P7ZXXU4g-wU3Q'
-api_url = 'https://wowfluence.com/version-test/api/1.1/obj/'
-bubble_key = 'Bearer 33be6ff8b56d8a10d8f656a1a0108db3'
+
 
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
                     level=logging.INFO)

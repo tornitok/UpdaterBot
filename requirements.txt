@@ -1,0 +1,5 @@
+# Updater requirements.txt 
+requests==2.26.0
+telegram.ext==13.6
+sys==2.1.4
+psutil>=2.0

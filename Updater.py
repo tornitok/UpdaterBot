@@ -1,15 +1,11 @@
 # - *- coding: utf- 8 - *-
 import config
-import
-import pipfile
 import logging
 import requests
 import json
 import time
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
-import sys
-reload(sys)
-sys.setdefaultencoding('utf-8')
+
 
 api_key_telegram = '1649437858:AAE7soGnFekNgmwIqyzKa_P7ZXXU4g-wU3Q'
 
@@ -62,7 +58,6 @@ def main():
    
     updater.idle()
 
-bot.polling(none_stop=True)
 
 if __name__ == '__main__':
     main()
